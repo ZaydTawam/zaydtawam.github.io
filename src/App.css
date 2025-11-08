@@ -18,19 +18,19 @@ a {
 }
 
 @font-face {
-  font-family: 'Kepler';
-  src: url('assets/fonts/kepler_stdMdCndisplay.woff2') format('woff2'),
-    url('assets/fonts/kepler_stdMdCndisplay.woff') format('woff');
+  font-family: "Kepler";
+  src: url("assets/fonts/kepler_stdMdCndisplay.woff2") format("woff2"),
+    url("assets/fonts/kepler_stdMdCndisplay.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'InputMono';
-  src: url('assets/fonts/input_monolight.woff2') format('woff2'),
-    url('assets/fonts/input_monolight.woff') format('woff');
+  font-family: "InputMono";
+  src: url("assets/fonts/input_monolight.woff2") format("woff2"),
+    url("assets/fonts/input_monolight.woff") format("woff");
 }
 
 h1 {
-  font-family: 'Kepler', serif;
+  font-family: "Kepler", serif;
   font-weight: 400;
   font-size: 10rem;
   letter-spacing: -0.15vw;
@@ -40,7 +40,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Kepler', serif;
+  font-family: "Kepler", serif;
   font-weight: 400;
   font-size: 5rem;
   letter-spacing: -0.1vw;
@@ -49,7 +49,7 @@ h2 {
 }
 
 p {
-  font-family: 'InputMono', monospace;
+  font-family: "InputMono", monospace;
   font-size: 1.3rem;
   letter-spacing: -0.01vw;
   margin: 0;
@@ -76,7 +76,7 @@ p {
 }
 
 .menu-item:hover::before {
-  content: '\2192  ';
+  content: "\2192  ";
 }
 
 #gradient-img {
